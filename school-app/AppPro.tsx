@@ -10,12 +10,17 @@ import {
     
 } from 'react-native'
 import HomeHeader from './Components/HomeHeader'
+import HomeProfileBanner from './Components/HomeProfileBanner'
 
 function AppPro(): JSX.Element{
     const isDarkMode = useColorScheme() === 'dark'
     
     return(
+        <View style={styles.home}>
             <HomeHeader />
+            <HomeProfileBanner />
+        </View>
+       
 
 
      
@@ -33,6 +38,10 @@ function AppPro(): JSX.Element{
 
 const styles = StyleSheet.create({
 
+    home:{
+        flex:1
+        
+    }
     
 
 

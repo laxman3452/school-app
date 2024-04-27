@@ -23,11 +23,16 @@ const HomeHeader = () => {
 const styles = StyleSheet.create({
 
     header: {
-        
-        flex: 1,
+        // flex: grow shrink height
+        // flexGrow
+        // flexShrink
+        flexBasis:50,
         flexDirection:'row',
-        // alignItems: 'center',
+        alignItems: 'flex-start',
         justifyContent: 'space-between',
+        padding:2
+        
+        
 
         
     },
