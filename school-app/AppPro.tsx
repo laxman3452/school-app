@@ -39,7 +39,8 @@ function AppPro(): JSX.Element{
 const styles = StyleSheet.create({
 
     home:{
-        flex:1
+        flex:1,
+        backgroundColor:'#E7EAF1'
         
     }
     
